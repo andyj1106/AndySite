@@ -370,5 +370,6 @@ footer ul li {
 	.top-bar-section li a:hover:not(.button) {
 		background: rgba(0,0,0,0.3);
 	}
-
+	.section-container.vertical-nav > section.active > .title a, .section-container.vertical-nav > .section.active > .title a {
+	color: tan;
 }
