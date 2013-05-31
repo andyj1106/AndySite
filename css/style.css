@@ -82,23 +82,9 @@ h4.tan {
 	border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-ul li {
-	list-style: none;
-	font-family: Times, TimesNewRoman, "Times New Roman", Baskerville, Georgia, serif;
-}
 
-footer {
-	font-size: inherit;
-}
-footer h3 {
-	font-size: 18px
-}
 
-footer ul li {
-	text-transform: uppercase;
-	font-size: 12px;
-	color: #cccccc;
-}
+
 
 /* Slider */
 
@@ -178,7 +164,7 @@ footer ul li {
 .slider .banner-side {
 	background-color: rgba(0, 0, 0, 0.65);
 	padding: 10px 14px;
-	height: 398px;
+	height: 387px;
 	overflow: hidden;
 }
 
@@ -254,10 +240,16 @@ footer ul li {
     white-space: nowrap;
 }
 .section-container.vertical-nav > section > .title a:hover, .section-container.vertical-nav > .section > .title a:hover {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.6);
     -moz-border-radius: 5px;
 	border-radius: 5px;
 	color: white;
+}
+.section-container.vertical-nav > section.active > .title a, .section-container.vertical-nav > .section.active > .title a {
+    background-color: rgba(0, 0, 0, 0.6);
+    -moz-border-radius: 5px;
+	border-radius: 5px;
+	color: tan;
 }
 .section-container, .section-container.auto {
     margin-bottom: 0;
@@ -275,6 +267,22 @@ footer ul li {
     -moz-border-radius: 5px;
 	border-radius: 5px;
 	padding: 0.4em;
+}
+.section-container.vertical-nav > section.active > .content, .section-container.vertical-nav > .section.active > .contentigloo {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: medium none;
+    border-radius: 5px 5px 5px 5px;
+    color: white !important;
+    display: block;
+    min-width: 15em;
+    padding: 0.4em;
+    position: absolute;
+    right: 60%;
+    top: 0;
+    z-index: 999;
+}
+.section-container.vertical-nav > section .content, .section-container.vertical-nav > .section .contentigloo {
+    display: none;
 }
 .side-nav li a {
     color: white;
