@@ -1129,13 +1129,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #6f6f6f;
     line-height: 0; }
 
-h1 {
+h3 {
   font-size: 2.125em; }
 
 h2 {
   font-size: 1.6875em; }
 
-h3 {
+h1 {
   font-size: 1.375em; }
 
 h4 {
@@ -1273,13 +1273,13 @@ blockquote p {
   h1, h2, h3, h4, h5, h6 {
     line-height: 1.4; }
 
-  h1 {
+  h3 {
     font-size: 2.75em; }
 
   h2 {
     font-size: 2.3125em; }
 
-  h3 {
+  h1 {
     font-size: 1.6875em; }
 
   h4 {
